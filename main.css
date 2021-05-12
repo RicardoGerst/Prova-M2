@@ -1,0 +1,480 @@
+body{
+    width: 100;
+    height: 100;
+    margin: auto 0;
+}
+
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+
+.logo{
+    cursor: pointer;
+    width: 4%;
+    padding: 8px;
+}
+
+.text-01{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.text-01 ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    bottom: 82px;
+}
+
+.text-01 ul li a{
+    cursor: pointer;
+    color: #0e0e10;
+    text-decoration: none;
+}
+
+#primeiro{
+    position: relative;
+    bottom: 3px;
+}
+
+.perfil{
+    cursor: pointer;
+    position: fixed;
+    top: 13px;
+    right: 19px;
+
+}
+
+.bloco-01{
+    cursor: pointer;
+    position: fixed;
+    width: 65px;
+    height: 28px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    top: 11px;
+    right: 160px;
+}
+
+#segundo{
+    font-family: 'Lato', sans-serif;
+    color: #0e0e10;
+    position: relative;
+    text-align: center;
+    bottom: 11px;
+}
+
+.bloco-02{
+    cursor: pointer;
+    position: fixed;
+    width: 100px;
+    height: 28px;
+    background-color: #9147ff;
+    border-radius: 5px;
+    top: 11px;
+    right: 50px;
+}
+
+#terceiro{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    bottom: 11px;
+}
+
+#lupa{
+    position: fixed;
+    top: 10px;
+    right: 240px;
+
+}
+
+.busca{
+    position: fixed;
+    width: 200px;
+    height: 23px;
+    border-radius: 5px;
+    top: 15px;
+    right: 240px;
+    background-color:#e5e5e5;
+}
+
+.meio{
+    width: 100%;
+    height: 669px;
+    background-color:#9147ff;
+}
+
+.quad-01{
+    width: 370px;
+    height: 290px;
+    background-color: white;
+}
+
+#cor{
+    color: #9147ff;
+}
+
+.cont-01{
+    padding: 10px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+#quarto{
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.cad{
+    cursor: pointer;
+    width: 100px;
+    height: 28px;
+    background-color: #9147ff;
+    border-radius: 5px;
+}
+
+#quinto{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    bottom: 5px;
+}
+
+.quad-02{
+    width: 370px;
+    height: 370px;
+    background-color: white;
+}
+
+.l-01{
+    padding: 10px;
+}
+
+.cont-02{
+    position: relative;
+    bottom: 30px;
+    padding: 10px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#sexto{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.quad-03{
+    float: right;
+    width: 979px;
+    height: 310px;
+    background-color: white;
+}
+
+.t-01{
+    width: 979px;
+    height: 325px;
+    background-color: #f7f7f8;
+}
+
+#titulo-01{
+    padding: 5px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+.quad-04{
+    float: right;
+    width: 979px;
+    height: 350px;
+    background-color: white;
+}
+
+.t-02{
+    width: 979px;
+    height: 314px;
+    background-color: #f7f7f8;
+}
+
+#titulo-02{
+    padding: 5px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+.foto-01{
+    position: relative;
+    float: left;
+    bottom: 290px;
+    margin-left: 10px;
+}
+
+.foto-02{
+    position: relative;
+    float: left;
+    bottom: 290px;
+    margin-left: 50px;
+}
+
+.foto-03{
+    position: relative;
+    float: left;
+    bottom: 290px;
+    margin-left: 50px;
+}
+
+
+.logof-01{
+    position: absolute;
+    bottom: 315px;
+    left: 380px;
+}
+
+.logotxt-01{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: relative;
+    float: left;
+    top: 120px;
+    margin-left: 60px;
+
+}
+
+#sc{
+    font-size: 10px;
+    color: #53535f;
+}
+
+.box-01{
+    position: relative;
+    top: 210px;
+    margin-left: 60px;
+    width: 60px;
+    height: 20px;
+    background-color: #eaeaeb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box-02{
+    position: relative;
+    top: 177px;
+    margin-left: 125px;
+    width: 60px;
+    height: 20px;
+    background-color: #eaeaeb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box-03{
+    position: relative;
+    top: 146px;
+    margin-left: 190px;
+    width: 73px;
+    height: 20px;
+    background-color: #eaeaeb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#ing{
+    cursor: pointer;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 102px;
+}
+
+#esp{
+    cursor: pointer;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 68px;
+}
+
+#comp{
+    cursor: pointer;
+    font-size: 11px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 35px;
+}
+
+.logof-02{
+    position: absolute;
+    bottom: 320px;
+    left: 682px;
+}
+
+.logotxt-02{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: relative;
+    float: left;
+    top: 35px;
+    margin-left: 105px;
+
+}
+
+.box-04{
+    position: relative;
+    top: 112px;
+    margin-left: 360px;
+    width: 60px;
+    height: 20px;
+    background-color: #eaeaeb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#ing-01{
+    cursor: pointer;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 88px;
+}
+
+.box-05{
+    position: relative;
+    top: 79px;
+    margin-left: 425px;
+    width: 60px;
+    height: 20px;
+    background-color: #eaeaeb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#esp-01{
+    cursor: pointer;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 55px;
+}
+
+.logotxt-03{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: relative;
+    float: left;
+    bottom: 30px;
+    margin-left: 135px;
+
+}
+
+.logof-03{
+    position: absolute;
+    bottom: 320px;
+    left: 982px;
+}
+
+.box-06{
+    position: relative;
+    top: 47px;
+    margin-left: 660px;
+    width: 60px;
+    height: 20px;
+    background-color: #eaeaeb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#ing-02{
+    cursor: pointer;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 88px;
+}
+
+.jogoft{
+    position: relative;
+    bottom: 280px;
+    padding: 10px;
+}
+
+.jogotxt-01{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    top: 180px;
+    margin-left: 10px;
+}
+
+.jogotxt-02{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    top: 180px;
+    margin-left: 40px;
+}
+
+.jogotxt-03{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    top: 180px;
+    margin-left: 40px;
+}
+
+.jogotxt-04{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    top: 180px;
+    margin-left: 27px;
+}
+
+.jogotxt-05{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    top: 180px;
+    margin-left: 40px;
+}
+
+.jogotxt-06{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    top: 180px;
+    margin-left: 49px;
+}
